@@ -80,3 +80,14 @@ changerTitre();
 addButton.addEventListener("click", function(Ajouter){
     alert("a+b");
 });
+
+# Tableau en JS
+
+ex : let fruits = ["pommme","fraise"];
+
+.push() : ajouter à la fin
+.pop() : retirer le dernier ou l'elment choisi dans le pop
+.shift() : travailler avec le dernier element
+.split():
+.slice():
+

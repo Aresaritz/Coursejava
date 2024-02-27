@@ -11,8 +11,7 @@ const result = document.getElementById("result");
 
 // Création des events
 // le parametre event est passe de façon implicite, son nom peut etre changé mais il est préférable de le laisser pour la compréhension
-form.onsubmit = (event) =>{
-    event.preventDefault();
+
     
     // Recuperation de la valeur de select (add,sub,mul,div)
     console.log(('Valeur de l\'element select: ',select.value))
@@ -48,4 +47,3 @@ form.onsubmit = (event) =>{
 
 
 
-};
